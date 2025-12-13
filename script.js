@@ -4,4 +4,8 @@ function addTask() {
   li.textContent = input.value;
   document.getElementById("taskList").appendChild(li);
   input.value = "";
+  li.onclick = function() {
+  li.remove();
+}
+
 }
