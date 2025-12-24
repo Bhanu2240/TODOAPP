@@ -6,11 +6,18 @@
 </head>
 <body>
 
-  <h1>To-Do Application</h1>
+  <nav id="navbar">TO-DO APPLICATION</nav>
 
-  <input type="text" id="taskInput" placeholder="Enter task">
-  <button onclick="addTask()">Add</button>
-  <ul id="taskList"></ul>
+  <div class="container">
+    <h2>My Tasks</h2>
+
+    <div class="input-box">
+      <input type="text" id="taskInput" placeholder="Enter your task">
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
 
   <script src="script.js"></script>
 </body>
