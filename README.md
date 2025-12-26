@@ -40,6 +40,18 @@ The following Git commands were used in this project:
 - `git log --oneline --graph` – View commit history
 
 ---
+## Project Structure
+TodoApp
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── screenshots
+    ├── git-log.png
+    ├── branches.png
+    ├── merge-conflict.png
+    └── conflict-resolved.png
+
 
 ## Branches Used
 The following branches were created and used:
